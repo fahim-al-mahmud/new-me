@@ -74,7 +74,7 @@ nav ul {
 /* Header */
 
 header {
-    background-image: url(/images/banner/banner3.png);
+    background-image: url(images/banner/banner3.png);
     width: 1600px;
     height: 808px;
     background-repeat: no-repeat;
@@ -132,7 +132,7 @@ header .common-btn {
 
 /* Mindset */
 .mindset {
-    background-image: linear-gradient(to right, rgb(0, 77, 170), rgba(0, 120, 233, 0)), url(/images/watch.png);
+    background-image: linear-gradient(to right, rgb(0, 77, 170), rgba(0, 120, 233, 0)), url(images/watch.png);
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 8px;
