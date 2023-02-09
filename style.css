@@ -13,6 +13,16 @@
     border: none;
 }
 
+.Secondary-btn {
+    color: rgb(255, 255, 255);
+    background-color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 20px 25px;
+    border: none;
+}
+
 .secondary-title {
     font-weight: 700;
     font-size: 40px;
@@ -20,8 +30,45 @@
 
 }
 
+.secondary-title-white {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+
+}
+
 .content-text {
     color: #444343;
+}
+
+/* Nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-container {
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.nav-title {
+    font-size: 50px;
+    font-weight: 800;
+    color: #ffffff;
+    text-shadow: 4px 4px #06538e;
 }
 
 /* Header */
@@ -31,15 +78,17 @@ header {
     width: 1600px;
     height: 808px;
     background-repeat: no-repeat;
-    background-position: top;
 }
+
 
 header h1 {
     font-weight: 700;
     font-size: 65px;
     text-align: right;
     color: #FFFFFF;
-    margin: 216px 230px 20px 845px;
+    margin: 0px 230px 20px 845px;
+    padding-top: 100px;
+
 }
 
 header p {
@@ -79,4 +128,52 @@ header .common-btn {
 .plan-container {
     display: flex;
     justify-content: space-between;
+}
+
+/* Mindset */
+.mindset {
+    background-image: linear-gradient(to right, rgb(0, 77, 170), rgba(0, 120, 233, 0)), url(/images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+    width: 1140px;
+    height: 300px;
+    margin: 0px 210px;
+    margin-bottom: 100px;
+}
+
+.mindset h2 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+
+}
+
+.mindset-container {
+    width: 459px;
+    height: 182px;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+
+.footer-section {
+    display: flex;
+    gap: 250px;
+    background-color: #151414;
+    color: #FFFFFF;
+    padding: 130px 130px 130px 150px;
+    width: 1300px;
+}
+
+.future {
+    width: 485px;
+    height: 317px;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
