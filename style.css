@@ -13,6 +13,17 @@
     border: none;
 }
 
+.secondary-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+
+}
+
+.content-text {
+    color: #444343;
+}
+
 /* Header */
 
 header {
@@ -51,12 +62,21 @@ header .common-btn {
     margin-top: 60px;
 }
 
-.secondary-title {
-    font-weight: 700;
-    font-size: 40px;
-    color: #151414;
+
+
+/* Plan */
+.my-plan {
+    text-align: center;
+    margin: 0 250px;
+    margin-bottom: 150px;
 }
 
-.content-text {
-    color: #444343;
+.secondary-title-two {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-between;
 }
